@@ -1,0 +1,144 @@
+.productos{
+
+  
+  border-radius: 10px;
+  padding: 20px;
+    
+
+}
+
+.productoss {
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+    margin: 60px;
+    
+  }
+
+ .productoss img {
+    
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); 
+    
+    
+  }
+
+ .productoss img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+
+
+.mundial {
+    display: inline-block;
+    padding: 20px;
+    align-items: center;
+    margin: 70px;
+    color: rgb(247, 46, 46);
+    font-size: 22px;
+    font-family: poppins, sans-serif;
+
+
+}
+
+.futbol {
+    display: inline-block;
+    padding: 20px;
+    align-items: center;
+    margin: 70px;
+    color: rgb(247, 46, 46);
+    font-size: 22px;
+    font-family: poppins, sans-serif;
+  }
+
+
+.gimnasio {
+    display: inline-block;
+    padding: 20px;
+    align-items: center;
+    margin: 70px;
+    color: rgb(247, 46, 46);
+    font-size: 22px;
+    font-family: poppins, sans-serif;
+  }  
+
+.info {
+
+  padding: 20px;
+   background-color: rgb(247, 46, 46);
+   border-radius: 10px;
+   border: 2px solid black;
+   font-size: 25px;
+   color: white;
+   
+}  
+
+.info a {
+
+ 
+ color : white;
+ text-decoration: none;
+ font-size: 30px;
+ 
+}
+.info a:hover {
+    text-decoration: underline;
+}
+
+figure {
+    margin: 0;
+}
+
+
+figcaption {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(247, 46, 46);
+  font-family: oswald, sans-serif;
+  
+
+
+}
+
+
+.frase{
+   font-family: oswald, sans-serif;
+   background-color: rgb(247, 46, 46);
+   border-radius: 10px;
+    padding: 30px;
+    border: 2px solid black;
+
+
+    h2{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+
+    }
+
+   p{
+ 
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+
+   }
+}
+
+
+  
+ 
+     
+
+
+ 
+
+
+
+
