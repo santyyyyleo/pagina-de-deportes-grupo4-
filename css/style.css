@@ -1,6 +1,10 @@
 .productos {
-  border-radius: 10px;
-  padding: 20px;
+  background-image: url(../imagenes/fondo\ de\ pagina.avif);
+}
+
+header h1 {
+  font-family: black ops one, sans-serif;
+  padding: 15px;
 }
 
 .productoss {
@@ -25,47 +29,52 @@
 
 .mundial {
   display: inline-block;
-  padding: 20px;
+  padding: 30px;
+  padding-top: 200px;
   align-items: center;
-  margin: 70px;
+  margin: 80px;
   color: rgb(247, 46, 46);
   font-size: 22px;
-  font-family: poppins, sans-serif;
+  font-family: audiowide, sans-serif;
 }
 
 .futbol {
-  display: inline-block;
-  padding: 20px;
+  padding: 30px;
+  padding-top: 150px;
   align-items: center;
   margin: 70px;
   color: rgb(247, 46, 46);
   font-size: 22px;
-  font-family: poppins, sans-serif;
+  font-family: audiowide, sans-serif;
 }
 
 .gimnasio {
   display: inline-block;
   padding: 20px;
+  padding-top: 150px;
   align-items: center;
   margin: 70px;
   color: rgb(247, 46, 46);
   font-size: 22px;
-  font-family: poppins, sans-serif;
+  font-family: audiowide, sans-serif;
 }
 
 .info {
-  padding: 20px;
+  padding: 30px;
   background-color: rgb(247, 46, 46);
   border-radius: 10px;
   border: 2px solid black;
   font-size: 25px;
   color: white;
+  font-family: audiowide, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 .info a {
   color: white;
   text-decoration: none;
   font-size: 30px;
+  font-family: supermercado one, sans-serif;
 }
 
 .info a:hover {
@@ -82,11 +91,11 @@ figcaption {
   font-weight: bold;
   font-size: 20px;
   color: rgb(247, 46, 46);
-  font-family: oswald, sans-serif;
+  font-family: bangers, sans-serif;
 }
 
 .frase {
-  font-family: oswald, sans-serif;
+  font-family: audiowide, sans-serif;
   background-color: rgb(247, 46, 46);
   border-radius: 10px;
   padding: 30px;
@@ -107,7 +116,8 @@ nav ul {
   display: flex;
   gap: 20px;
   list-style: none;
-  margin-top: 40px;
+  margin-top: 50px;
+  margin: 20px;
 }
 nav a {
   text-decoration: none;
@@ -118,6 +128,7 @@ nav a {
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
+  font-family: audiowide, sans-serif;
 }
 
 a:hover {
