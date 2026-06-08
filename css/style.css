@@ -1,17 +1,13 @@
 .productos {
-  background-image: url(../imagenes/fondo\ de\ pagina.avif);
-}
-
-header h1 {
-  font-family: black ops one, sans-serif;
-  padding: 15px;
+  margin: 30px;
+  padding: 30px;
 }
 
 .productoss {
   display: flex;
   gap: 80px;
   align-items: flex-start;
-  margin: 60px;
+  margin: 100px;
 }
 
 .productoss img {
@@ -27,38 +23,6 @@ header h1 {
   transition: transform 0.3s ease;
 }
 
-.mundial {
-  display: inline-block;
-  padding: 30px;
-  padding-top: 200px;
-  align-items: center;
-  margin: 80px;
-  color: rgb(247, 46, 46);
-  font-size: 22px;
-  font-family: audiowide, sans-serif;
-}
-
-.futbol {
-  padding: 30px;
-  padding-top: 150px;
-  align-items: center;
-  margin: 70px;
-  color: rgb(247, 46, 46);
-  font-size: 22px;
-  font-family: audiowide, sans-serif;
-}
-
-.gimnasio {
-  display: inline-block;
-  padding: 20px;
-  padding-top: 150px;
-  align-items: center;
-  margin: 70px;
-  color: rgb(247, 46, 46);
-  font-size: 22px;
-  font-family: audiowide, sans-serif;
-}
-
 .info {
   padding: 30px;
   background-color: rgb(247, 46, 46);
@@ -68,12 +32,13 @@ header h1 {
   color: white;
   font-family: audiowide, sans-serif;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  margin: 80px;
 }
 
 .info a {
   color: white;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   font-family: supermercado one, sans-serif;
 }
 
@@ -98,28 +63,161 @@ figcaption {
   font-family: audiowide, sans-serif;
   background-color: rgb(247, 46, 46);
   border-radius: 10px;
-  padding: 30px;
+  padding: 70px;
   border: 2px solid black;
+  margin: 100px;
 }
 .frase h2 {
   color: white;
   font-size: 40px;
   text-align: center;
+  padding: 10px;
 }
 .frase p {
   color: white;
   font-size: 20px;
   text-align: center;
+  padding: 10px;
 }
 
-nav ul {
+.categorias h2 {
+  color: rgb(247, 46, 46);
+  text-align: center;
+  font-size: 50px;
+  font-family: audiowide, sans-serif;
+  margin: 100px;
+}
+.categorias aside {
+  color: rgb(247, 46, 46);
+  text-align: center;
+  font-size: 20px;
+  padding: 30px;
+}
+.categorias aside ul {
+  font-size: 25px;
+}
+.categorias aside .flecha {
+  color: rgb(247, 46, 46);
+  text-align: center;
+  font-size: 50px;
+}
+
+.categorias img {
+  width: 600px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.mundial {
+  background-color: rgb(247, 46, 46);
+  border: 2px solid black;
+  border-radius: 50px;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  margin: 20%;
+  margin-bottom: -10px;
+  color: white;
+  font-size: 18px;
+  font-family: black ops one, sans-serif;
+}
+
+.futbol {
+  background-color: rgb(247, 46, 46);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin: 20%;
+  margin-bottom: -10px;
+  color: white;
+  font-size: 18px;
+  font-family: black ops one, sans-serif;
+}
+
+.gimnasio {
+  background-color: rgb(247, 46, 46);
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 20px;
+  margin: 20%;
+  margin-bottom: -10px;
+  color: white;
+  font-size: 18px;
+  font-family: black ops one, sans-serif;
+}
+
+.catalogo1 {
+  margin: 40px;
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 5px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.catalogo2 {
+  margin: 40px;
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 5px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.catalogo3 {
+  margin: 40px;
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 5px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.descripcion {
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(247, 46, 46);
+  border-radius: 10px;
+  border: 2px solid black;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  display: inline-block;
+}
+
+header {
+  padding: 15px;
+  display: flex;
+}
+
+header h1 {
+  font-size: 40px;
+  color: rgb(206, 16, 16);
+  margin-right: 50px;
+  font-family: black ops one, sans-serif;
+}
+
+header nav ul {
   display: flex;
   gap: 20px;
   list-style: none;
   margin-top: 50px;
   margin: 20px;
 }
-nav a {
+header nav a {
   text-decoration: none;
   color: rgb(206, 16, 16);
   font-size: 25px;
@@ -137,15 +235,22 @@ a:hover {
   transition: 0.3s;
 }
 
-header {
-  padding: 15px;
-  display: flex;
+.menu {
+  position: relative;
 }
 
-header h1 {
-  font-size: 40px;
-  color: rgb(206, 16, 16);
-  margin-right: 50px;
+.submenus {
+  display: none;
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+.menu:hover .submenus {
+  margin: 3px;
+  display: block;
 }
 
 footer {

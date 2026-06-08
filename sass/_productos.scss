@@ -1,29 +1,16 @@
-.productos {
+.productos{
 
- background-image: url(../imagenes/fondo\ de\ pagina.avif);
-
+margin:30px;
+padding: 30px;
 
 }
-
-
-
-
-header {
-
-h1{
-   font-family: black ops one  , sans-serif ;
-   padding: 15px;
-}
-   
-}
-
 
 
 .productoss {
     display: flex;
     gap: 80px;
     align-items: flex-start;
-    margin: 60px;
+    margin: 100px;
     
   }
 
@@ -44,41 +31,7 @@ h1{
   }
 
 
-.mundial {
-    display: inline-block;
-    padding: 30px;
-    padding-top: 200px;
-    align-items: center;
-    margin: 80px;
-    color: rgb(247, 46, 46);
-    font-size: 22px;
-    font-family: audiowide, sans-serif;
 
-
-}
-
-.futbol {
-    
-    padding: 30px;
-    padding-top: 150px;
-    align-items: center;
-    margin: 70px;
-    color: rgb(247, 46, 46);
-    font-size: 22px;
-    font-family: audiowide, sans-serif;
-  }
-
-
-.gimnasio {
-    display: inline-block;
-    padding: 20px;
-    padding-top: 150px;
-    align-items: center;
-    margin: 70px;
-    color: rgb(247, 46, 46);
-    font-size: 22px;
-    font-family: audiowide, sans-serif;
-  }  
 
 .info {
 
@@ -90,6 +43,7 @@ h1{
    color: white;
    font-family: audiowide, sans-serif;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); 
+    margin: 80px;
 }
 
 .info a {
@@ -97,7 +51,7 @@ h1{
  
  color : white;
  text-decoration: none;
- font-size: 30px;
+ font-size: 20px;
  font-family: supermercado one , sans-serif;
  
 }
@@ -128,15 +82,17 @@ figcaption {
    font-family: audiowide, sans-serif;
    background-color: rgb(247, 46, 46);
    border-radius: 10px;
-    padding: 30px;
+    padding: 70px;
     border: 2px solid black;
+    margin: 100px;
+    
 
 
     h2{
         color: white;
         font-size: 40px;
         text-align: center;
-
+        padding: 10px;
     }
 
    p{
@@ -144,7 +100,7 @@ figcaption {
     color: white;
     font-size: 20px;
     text-align: center;
-
+    padding: 10px;
 
    }
 }
